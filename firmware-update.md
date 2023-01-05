@@ -17,7 +17,7 @@ To Upload the Firmware you must have access to the user interface. If this is no
 The hydrom must be fully charged
 {% endhint %}
 
-You can download the latest version of the firmware from [this site](../version-overview.md#latest-firmware). To do this, go to the download section of the website.
+You can download the latest version of the firmware from [this site](version-overview.md#latest-firmware). To do this, go to the download section of the website.
 
 **Please read all instructions carefully** to make sure you download the correct version. Updating the firmware - can be done via the web interface of the camera. The procedure is the same for each: Windows, macOS and LINUX.
 
@@ -27,8 +27,8 @@ It is generally a good idea to keep the firmware of your devices up to date beca
 \
 You can find the latest firmware here:
 
-{% content-ref url="../version-overview.md" %}
-[version-overview.md](../version-overview.md)
+{% content-ref url="version-overview.md" %}
+[version-overview.md](version-overview.md)
 {% endcontent-ref %}
 
 ### Step 1: Open the Menue
@@ -36,7 +36,7 @@ You can find the latest firmware here:
 To access the menu bar you have to click on the three lines in the upper left corner. (See arrow)\
 Then the menu bar will open.
 
-![access the menu bar by clicking the three lines in the upper left corner](../.gitbook/assets/Folie4.png)
+![access the menu bar by clicking the three lines in the upper left corner](.gitbook/assets/Folie4.png)
 
 ### Step 2: Select "Update"
 
@@ -54,5 +54,5 @@ You will know that the Hydrom has installed the new firmware by the Hydrom shutt
 
 How to wake up the Hydrom can be found here:
 
-[#wakeup-the-hydrom](../other-settings/enable-deepsleep.md#wakeup-the-hydrom "mention")
+[#wakeup-the-hydrom](enable-deepsleep.md#wakeup-the-hydrom "mention")
 {% endhint %}

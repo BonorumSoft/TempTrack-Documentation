@@ -11,7 +11,7 @@ Diesen Anleitung ist auch auf Deutsch verfügbar: [Link](https://anleitung.hydro
 {% hint style="success" %}
 **Precondition:**
 
-To make this setting you must have access to the user interface. If this is not the case, see here how to do it:[access-to-the-user-interface.md](readme/access-to-the-user-interface.md "mention")
+To make this setting you must have access to the user interface. If this is not the case, see here how to do it:[access-to-the-user-interface.md](access-to-the-user-interface.md "mention")
 {% endhint %}
 
 ## Step 1: Open the Menue
@@ -88,6 +88,6 @@ A second way to check the saving is to reload the page (all browsers offer this)
 
 Activating DeepSleep is mandatory for the hydrom to be able to send data. If DeepSleep is activated, the hydrom wakes up after the set time and sends the data to the set service. Afterwards, the hydrom goes back to sleep and waits for the new service.
 
-{% content-ref url="other-settings/enable-deepsleep.md" %}
-[enable-deepsleep.md](other-settings/enable-deepsleep.md)
+{% content-ref url="enable-deepsleep.md" %}
+[enable-deepsleep.md](enable-deepsleep.md)
 {% endcontent-ref %}

@@ -12,42 +12,42 @@ Have fun brewing!
 
 ## Minimal Setup
 
-{% content-ref url="readme/charging-the-hydrom.md" %}
-[charging-the-hydrom.md](readme/charging-the-hydrom.md)
+{% content-ref url="charging-the-hydrom.md" %}
+[charging-the-hydrom.md](charging-the-hydrom.md)
 {% endcontent-ref %}
 
-{% content-ref url="readme/turn-on-the-hydrom.md" %}
-[turn-on-the-hydrom.md](readme/turn-on-the-hydrom.md)
+{% content-ref url="turn-on-the-hydrom.md" %}
+[turn-on-the-hydrom.md](turn-on-the-hydrom.md)
 {% endcontent-ref %}
 
-{% content-ref url="readme/wakeup-the-hydrom.md" %}
-[wakeup-the-hydrom.md](readme/wakeup-the-hydrom.md)
+{% content-ref url="wakeup-the-hydrom.md" %}
+[wakeup-the-hydrom.md](wakeup-the-hydrom.md)
 {% endcontent-ref %}
 
-{% content-ref url="readme/access-to-the-user-interface.md" %}
-[access-to-the-user-interface.md](readme/access-to-the-user-interface.md)
+{% content-ref url="access-to-the-user-interface.md" %}
+[access-to-the-user-interface.md](access-to-the-user-interface.md)
 {% endcontent-ref %}
 
-{% content-ref url="readme/firmware-update.md" %}
-[firmware-update.md](readme/firmware-update.md)
+{% content-ref url="firmware-update.md" %}
+[firmware-update.md](firmware-update.md)
 {% endcontent-ref %}
 
-{% content-ref url="readme/untitled.md" %}
-[untitled.md](readme/untitled.md)
+{% content-ref url="untitled.md" %}
+[untitled.md](untitled.md)
 {% endcontent-ref %}
 
-{% content-ref url="readme/plainwater.md" %}
-[plainwater.md](readme/plainwater.md)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
 
 ### Connect one of the following Services.
 
 {% hint style="info" %}
-* [MQTT](readme/connect\_to\_mqtt.md)
-* [Ubidots](readme/connect\_to\_ubidots.md) (Recommendation for getting started)
-* [Brewblox](readme/connect\_to\_brewblox.md)
-* [Brewfather](readme/connect\_to\_brewfather.md)
-* [Grainfather](readme/connect\_to\_grainfather.md)
-* [http (Webhook)](readme/connect\_to\_http.md)
-* [Brewer´s Friend](readme/connect-the-hydrom-to-brewers-friend.md)
+* [MQTT](connect\_to\_mqtt.md)
+* [Ubidots](broken-reference) (Recommendation for getting started)
+* [Brewblox](broken-reference)
+* [Brewfather](broken-reference)
+* [Grainfather](broken-reference)
+* [http (Webhook)](connect\_to\_http.md)
+* [Brewer´s Friend](broken-reference)
 {% endhint %}

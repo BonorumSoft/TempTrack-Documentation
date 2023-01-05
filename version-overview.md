@@ -2,8 +2,8 @@
 
 Here you can find the latest firmware. How to install the firmware and image can be found here:
 
-{% content-ref url="readme/firmware-update.md" %}
-[firmware-update.md](readme/firmware-update.md)
+{% content-ref url="firmware-update.md" %}
+[firmware-update.md](firmware-update.md)
 {% endcontent-ref %}
 
 {% file src=".gitbook/assets/firmware_1.3.4.1.bin" %}
@@ -129,7 +129,7 @@ Here you can find the latest firmware. How to install the firmware and image can
 ### Added
 
 * Parameter passing in the URL was introduced.\
-  Instruction you find here[#url-replacement-feature](readme/connect\_to\_http.md#url-replacement-feature "mention")
+  Instruction you find here[#url-replacement-feature](connect\_to\_http.md#url-replacement-feature "mention")
 
 ### Fixed
 

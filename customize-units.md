@@ -10,7 +10,7 @@ Diesen Anleitung ist auch auf Deutsch verfügbar: [Link](https://anleitung.hydro
 
 {% hint style="success" %}
 **Precondiion:**\
-To make this setting you must have access to the user interface. If this is not the case, see here how to do it:[access-to-the-user-interface.md](../readme/access-to-the-user-interface.md "mention")
+To make this setting you must have access to the user interface. If this is not the case, see here how to do it:[access-to-the-user-interface.md](access-to-the-user-interface.md "mention")
 {% endhint %}
 
 ## Step 1: Open the Menue
@@ -18,7 +18,7 @@ To make this setting you must have access to the user interface. If this is not 
 To access the menu bar you have to click on the three lines in the upper left corner. (See arrow)\
 Then the menu bar will open.
 
-![access the menu bar by clicking the three lines in the upper left corner](../.gitbook/assets/Folie4.png)
+![access the menu bar by clicking the three lines in the upper left corner](.gitbook/assets/Folie4.png)
 
 ## Step 2: Select "Settings"
 
@@ -26,7 +26,7 @@ On this page, you can adjust various settings to personalize your experience wit
 
 ## Step 3: Change Units
 
-![](../.gitbook/assets/Folie16.png)
+![](.gitbook/assets/Folie16.png)
 
 ### Tilt
 
@@ -50,7 +50,7 @@ This means that the data sent will always be consistent, no matter what unit is 
 
 Saving the data is important because it is the only way to connect to the service after waking up from DeepSleep.
 
-![Pressing the "save" button saves the settings.](../.gitbook/assets/Folie5.png)
+![Pressing the "save" button saves the settings.](.gitbook/assets/Folie5.png)
 
 You can check whether the saving was successful by looking at the settings file at http://hydrom001/settings.json/. to check if the save was successful. This file is the permanent memory of the Hydrom.
 

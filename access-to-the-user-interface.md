@@ -11,7 +11,7 @@ Diesen Anleitung ist auch auf Deutsch verfügbar: [Link](https://anleitung.hydro
 2.  The Hydrom must be in configuration mode\
     In normal operation, no user interface is loaded in order not to waste the battery charge. Therefore, the Hydrom must be put into configuration mode.
 
-    You can detect if the Hydrom is in Deepsleep when the green LED is on as described here: [#1-status-led-of-the-hydrom-logic](../getting-started/indicator-leds.md#1-status-led-of-the-hydrom-logic "mention")
+    You can detect if the Hydrom is in Deepsleep when the green LED is on as described here: [#1-status-led-of-the-hydrom-logic](indicator-leds.md#1-status-led-of-the-hydrom-logic "mention")
 
     If the Hydrom is in Deepsleep, it can be woken up according to the instructions on this page:\
     [wakeup-the-hydrom.md](wakeup-the-hydrom.md "mention")
@@ -32,7 +32,7 @@ The Hydrom unfortunately only supports Wifi with a frequency of 2.5 GHz, so it i
 {% tab title="Client Mode" %}
 Access the WebUI in any browser at reach the following address [http://hydrom001/](http://hydrom001)
 
-![Scan me to Access the WebFrontend](../.gitbook/assets/Folie45.png)
+![Scan me to Access the WebFrontend](.gitbook/assets/Folie45.png)
 
 If the name of the hydrom was changed, the hydrom must be reached under the newly selected name.
 

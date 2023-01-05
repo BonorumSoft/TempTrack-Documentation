@@ -7,7 +7,7 @@ ATTENTION! If you have entered incorrect information (wrong SSID, passwords etc.
 
 If the setting is incorrect, you can reset the Hydrom as described here:
 
-[#reset-by-the-button](../other-settings/factory-reset.md#reset-by-the-button "mention")
+[#reset-by-the-button](factory-reset.md#reset-by-the-button "mention")
 {% endhint %}
 
 To change the network settings, open the navigation bar on the left side and select the "Wifi" option
@@ -29,7 +29,7 @@ To set up the Hydrom as a client in an existing network, enter the name of the e
 
 In the field below the "Password" enter the password of the existing network.
 
-![](../.gitbook/assets/Folie48.png)
+![](.gitbook/assets/Folie48.png)
 {% endtab %}
 
 {% tab title="Accespoint" %}
@@ -37,6 +37,6 @@ To set up the Hydrom as a Accesspoint, enter a name for the Accesspoint in the f
 
 In the field below the "Password" enter the password of the Accesspoint.
 
-![](../.gitbook/assets/Folie49.png)
+![](.gitbook/assets/Folie49.png)
 {% endtab %}
 {% endtabs %}
