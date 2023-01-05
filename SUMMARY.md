@@ -18,4 +18,5 @@
 * [Enable DeepSleep](enable-deepsleep.md)
 * [Change Bluetooth Settings](add-bluetooth.md)
 * [The TempTrack user interface cannot be accessed.](untitled-1.md)
+* [Wake up the Temptrack](wakeup-the-TempTrack.md)
 * [Firmware](version-overview.md)
