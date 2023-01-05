@@ -1,6 +1,6 @@
 ---
 description: >-
-  The TempTrack supports several units for the tilt and the temperature. Here is
+  The TempTrack supports several units for temperature. Here is
   explained how to change the unit.
 ---
 

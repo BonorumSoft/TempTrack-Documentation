@@ -26,22 +26,18 @@ coverY: 0
 
 If placeholders are used in the URL specified in the "URL", the TempTrack will replace them with the current variables.
 
-An example would be: {VALUE\_TILT\_P} --> 15.3\
 {VALUE\_TEMPERATURE\_C} --> 25.3
 
 * **{NAME\_DEVICE}** If this variable is used, the TempTrack replaces this placeholder with the current name of the TempTrack. Default: "TempTrack001
 * **{VALUE\_TEMPERATURE\_C}** If this variable is used, the TempTrack replaces this placeholder with the currently measured temperature. The unit of this variable is Celsius
-* **{VALUE\_TILT\_P}** If this variable is used, the TempTrack replaces this placeholder with the currently measured temperature. The unit of this variable is Plato
-* **{VALUE\_TILT\_SG}** If this variable is used, the TempTrack replaces this placeholder with the currently measured tilt. The unit of this variable is specific Gravity
-* **{VALUE\_TILT\_G}** If this variable is used, the TempTrack replaces this placeholder with the currently measured tilt. The unit of this variable is Gravity
-* **{VALUE\_RSSI}** If this variable is used, the TempTrack replaces this placeholder with the currently measured tilt.
+* **{VALUE\_RSSI}** If this variable is used, the TempTrack replaces this placeholder with the currently measured Signal Quality.
 * **{VALUE\_BATTERY\_VOLTAGE}** If this variable is used, the TempTrack replaces this placeholder with the currently measured Batteryvoltage. The unit of this variable is Volt
 * **{VALUE\_BATTERY\_PERCENTAGE}** If this variable is used, the TempTrack replaces this placeholder with the current battery level. The unit of this variable is Percent.
 
 #### Example URL
 
 ```url
-https://maker.ifttt.com/trigger/TempTrack/with/key/clLb9jfjgngkdovIx?value1={VALUE_TILT_G}&value2={VALUE_TEMPERATURE_C}&value3={VALUE_BATTERY_PERCENTAGE}
+https://maker.ifttt.com/trigger/TempTrack/with/key/clLb9jfjgngkdovIx?value1={VALUE_TEMPERATURE_C}&value2={VALUE_BATTERY_PERCENTAGE}
 ```
 
 <figure><img src="https://github.com/BonorumSoft/TempTrack-Handbook/blob/main/.gitbook/assets/Webhook.png" alt=""><figcaption></figcaption></figure>
@@ -62,8 +58,6 @@ How the file looks like and what the parameters contain you can read here.
   A "C" for Celsius is sent here.\\
 * **battery**\
   Battery voltage in V\\
-* **gravity**\
-  If this variable is used, the TempTrack replaces this placeholder with the current battery level. The unit of this variable is Percent\\
 * **interval**\
   The interval during which the measured values are sent (+ approx. 23s).\\
 * **RSSI**\
@@ -75,11 +69,9 @@ Sample content of the JSON:
 {
 "name":"TempTrack001",
 "ID":3,
-"angle":65.54,
 "temperature":26.43,
 "temp_units":"C",
 "battery":3.9,
-"gravity":9.34,
 "interval":900,
 "RSSI":63.5
 }
