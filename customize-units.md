@@ -24,15 +24,9 @@ Then the menu bar will open.
 
 On this page, you can adjust various settings to personalize your experience with the device. Options you can customize include the interval at which the device collects and sends data, the units displayed on the main page, and the overhead detection feature. You can also enable temperature compensation to ensure accurate measurements. Take some time to explore the various settings available and make the necessary adjustments for your needs.
 
-## Step 3: Change Units
+## Step 3: Change Unit
 
 ![](.gitbook/assets/Folie16.png)
-
-### Tilt
-
-* **Plato** The unit Plato (°P) is a unit of measure used to quantify the concentration of sugars in a solution. It is commonly used in the brewing industry to describe the concentration of wort, which is the liquid that is extracted from the mashing process during the production of beer. One degree Plato is equal to one gram of sucrose per 100 grams of solution. The Plato scale is widely used because it is more accurate than other methods of measuring the concentration of sugars, such as the Brix scale.
-* **Specific Gravity** Specific gravity is a unit of measure used to compare the density of a substance to the density of a reference substance, typically water. It is commonly used in the brewing industry to measure the concentration of sugars in a solution, such as wort or beer. Specific gravity is expressed as a ratio, with the density of the substance being measured being the numerator and the density of the reference substance being the denominator. For example, if the specific gravity of a substance is 1.050, it means that it is 1.050 times denser than water, which has a specific gravity of 1.000. Specific gravity is an important measure for brewers because it allows them to determine the concentration of sugars and other dissolved solids in their wort or beer, which can affect the final alcohol content and flavor of the finished product.
-* **Degree** The raw angle of the TempTrack to the horizontal is indicated in degrees. If the TempTracketer is horizontal, "0°" is displayed. If the TempTracketer is in the vertical plane, "90°" is displayed.
 
 ### Temperature
 
