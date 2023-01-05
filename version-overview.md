@@ -18,8 +18,8 @@ Here you can find the latest firmware. How to install the firmware and image can
 
 ### Added
 
-* Upside down detection: The Hydrom stops sending readings when it is upside down. This results in longer battery life and clearer use of readings.
-* Temperature compensation: The Hydrom, like all free-floating hydrometers, is subject to the laws of physics. The measurement result is directly dependent on the temperature. This dependency has now been reduced with the temperature compensation.
+* Upside down detection: The TempTrack stops sending readings when it is upside down. This results in longer battery life and clearer use of readings.
+* Temperature compensation: The TempTrack, like all free-floating TempTracketers, is subject to the laws of physics. The measurement result is directly dependent on the temperature. This dependency has now been reduced with the temperature compensation.
 * Telegram Support: With this version the device supports Telegram. By popular request this feature has been added. Sends Plato, temperature (in celsius), battery level (in %) and the transmit power RSSI.
 * For Monitor.beer support, "tilt" was added to the json data. Monitor.beer should now be supported.
 
@@ -36,9 +36,9 @@ Here you can find the latest firmware. How to install the firmware and image can
 
 ### Added
 
-* The configuration page is now always accessible via Device Wifi. This means that every time you start the configuration mode with the hardware button, the Hydrom sets up its own network. This has many advantages:
+* The configuration page is now always accessible via Device Wifi. This means that every time you start the configuration mode with the hardware button, the TempTrack sets up its own network. This has many advantages:
   * reliable, even if the existing WLAN is not of good quality.
-  * even if the router does not resolve the DNS address correctly, the Hydrom can be accessed
+  * even if the router does not resolve the DNS address correctly, the TempTrack can be accessed
   * you don't need to know the IP of the target device, just enter 192.168.2.1 as described in the instructions.
   * some routers do not allow clients to communicate with each other, so you can still set up the device
   * a guest network can be used to send the data to the internet.
@@ -69,7 +69,7 @@ Here you can find the latest firmware. How to install the firmware and image can
 * LED on when started in configuration mode\
   The two LEDs are switched on immediately when the unit is started in configuration mode.
 * Wifi reset\
-  If the reset button is pressed for longer than 3 seconds, the Hydrom is started with reset Wifi settings.
+  If the reset button is pressed for longer than 3 seconds, the TempTrack is started with reset Wifi settings.
 
 ### Fixed
 
@@ -89,7 +89,7 @@ Here you can find the latest firmware. How to install the firmware and image can
 ### Added
 
 * Energy saving: Dynamic WLAN transmission power\
-  The Hydrom first tries to send the message with a lower transmission power and then slowly increases it until the message has been sent.
+  The TempTrack first tries to send the message with a lower transmission power and then slowly increases it until the message has been sent.
 * Detection: Server reachable (in the service menu)\
   If a test message has been sent, a red or green square is displayed behind the input window for the server address, depending on whether there is a connection or not. To test whether an Internet connection exists, "google.de" can be entered as the server This feature helps to find errors.
 * Detection: Port open on server (in service menu)\
@@ -141,13 +141,13 @@ Here you can find the latest firmware. How to install the firmware and image can
 * The default path for Brewfather was adjusted
 * Telegram UI was deleted, because not yet implemented in the backend
 * Thimgsspeak UI was deleted, because not implemented in the backend yet
-* SoftwareReset was deleted, because there were unintended resets. To reset the Hydrom via software, the URI "/reset" must be entered after the IP address.
+* SoftwareReset was deleted, because there were unintended resets. To reset the TempTrack via software, the URI "/reset" must be entered after the IP address.
 
 ## Version 1.2.9 - 2022-1-10
 
 ### Geändert
 
-* Die Werte für Tilt und Plato wurden in den Services vertauscht. Dadurch ist das Hydrom kompatibel zu den iSpindel-Anwendungen.
+* Die Werte für Tilt und Plato wurden in den Services vertauscht. Dadurch ist das TempTrack kompatibel zu den iSpindel-Anwendungen.
 
 ## Version 1.2.8 - 2022-1-5
 
@@ -169,14 +169,14 @@ Here you can find the latest firmware. How to install the firmware and image can
 
 ### Geändert
 
-* Die LEDs blinken nun nicht mehr, wenn das Hydrom durch den Timer aufgeweckt wird.
+* Die LEDs blinken nun nicht mehr, wenn das TempTrack durch den Timer aufgeweckt wird.
 * Vor dem Werksreset werden alle Einstellungen eingelesen, da die Offsets der MPU6050 nicht zurückgesetzt werden.
 
 ## Version 1.2.5 - 2021-12-30
 
 ### Behoben
 
-* Das Zurücksetzen wurde stabilisiert, so dass ein Zurücksetzen immer noch möglich ist, wenn Einstellungen das Hydrom zu früh zum Absturz bringen.
+* Das Zurücksetzen wurde stabilisiert, so dass ein Zurücksetzen immer noch möglich ist, wenn Einstellungen das TempTrack zu früh zum Absturz bringen.
 
 ### Geändert
 
@@ -223,7 +223,7 @@ Here you can find the latest firmware. How to install the firmware and image can
 * Unterstützung mehrerer Einheiten für Temperatur und Plato
   * Plato
   * Spezifische Schwerkraft
-  * Schwerkraft (Lage des Hydroms im Raum)
+  * Schwerkraft (Lage des TempTracks im Raum)
   * Kelvin
   * Fahrenheit
   * Celsius

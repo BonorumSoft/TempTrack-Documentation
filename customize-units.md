@@ -1,12 +1,12 @@
 ---
 description: >-
-  The Hydrom supports several units for the tilt and the temperature. Here is
+  The TempTrack supports several units for the tilt and the temperature. Here is
   explained how to change the unit.
 ---
 
 # Customize units
 
-Diesen Anleitung ist auch auf Deutsch verfügbar: [Link](https://anleitung.hydrom.io)
+
 
 {% hint style="success" %}
 **Precondiion:**\
@@ -32,7 +32,7 @@ On this page, you can adjust various settings to personalize your experience wit
 
 * **Plato** The unit Plato (°P) is a unit of measure used to quantify the concentration of sugars in a solution. It is commonly used in the brewing industry to describe the concentration of wort, which is the liquid that is extracted from the mashing process during the production of beer. One degree Plato is equal to one gram of sucrose per 100 grams of solution. The Plato scale is widely used because it is more accurate than other methods of measuring the concentration of sugars, such as the Brix scale.
 * **Specific Gravity** Specific gravity is a unit of measure used to compare the density of a substance to the density of a reference substance, typically water. It is commonly used in the brewing industry to measure the concentration of sugars in a solution, such as wort or beer. Specific gravity is expressed as a ratio, with the density of the substance being measured being the numerator and the density of the reference substance being the denominator. For example, if the specific gravity of a substance is 1.050, it means that it is 1.050 times denser than water, which has a specific gravity of 1.000. Specific gravity is an important measure for brewers because it allows them to determine the concentration of sugars and other dissolved solids in their wort or beer, which can affect the final alcohol content and flavor of the finished product.
-* **Degree** The raw angle of the Hydrom to the horizontal is indicated in degrees. If the hydrometer is horizontal, "0°" is displayed. If the hydrometer is in the vertical plane, "90°" is displayed.
+* **Degree** The raw angle of the TempTrack to the horizontal is indicated in degrees. If the TempTracketer is horizontal, "0°" is displayed. If the TempTracketer is in the vertical plane, "90°" is displayed.
 
 ### Temperature
 
@@ -52,6 +52,6 @@ Saving the data is important because it is the only way to connect to the servic
 
 ![Pressing the "save" button saves the settings.](.gitbook/assets/Folie5.png)
 
-You can check whether the saving was successful by looking at the settings file at http://hydrom001/settings.json/. to check if the save was successful. This file is the permanent memory of the Hydrom.
+You can check whether the saving was successful by looking at the settings file at http://TempTrack001/settings.json/. to check if the save was successful. This file is the permanent memory of the TempTrack.
 
-A second way to check the saving is to reload the page (all browsers offer this). If the properties are then reloaded, the hydrom has accepted them, otherwise the old settings are reloaded.
+A second way to check the saving is to reload the page (all browsers offer this). If the properties are then reloaded, the TempTrack has accepted them, otherwise the old settings are reloaded.

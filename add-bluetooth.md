@@ -1,12 +1,12 @@
 ---
 description: >-
-  The Hydrom supports iBeacon technology and enables Bluetooth Low Energy data
+  The TempTrack supports iBeacon technology and enables Bluetooth Low Energy data
   transmission to smartphones and tablets in the surrounding area.
 ---
 
 # Change Bluetooth Settings
 
-Diesen Anleitung ist auch auf Deutsch verfügbar: [Link](https://anleitung.hydrom.io)
+
 
 {% hint style="success" %}
 **Precondition:**
@@ -27,25 +27,25 @@ The "Services" page is a resource that allows users to select and configure vari
 
 ## Step 3: Enable Bluetooth
 
-The Hydrom will now send the following measured values via bluetooth after a restart by DeepSleep. For this, DeepSleep must also be activated as shown in the picture below.
+The TempTrack will now send the following measured values via bluetooth after a restart by DeepSleep. For this, DeepSleep must also be activated as shown in the picture below.
 
 {% hint style="warning" %}
-The "test message" option is not available for Bluetooth. So you have to wait until the Hydrom wakes up from a deep sleep. Hier findest du die Anleitu
+The "test message" option is not available for Bluetooth. So you have to wait until the TempTrack wakes up from a deep sleep. Hier findest du die Anleitu
 {% endhint %}
 
 ![Enabled Bluetooth](.gitbook/assets/Folie26.png)
 
 {% hint style="warning" %}
-The "test message" option is not available for Bluetooth. So you have to wait until the Hydrom wakes up from a deep sleep.
+The "test message" option is not available for Bluetooth. So you have to wait until the TempTrack wakes up from a deep sleep.
 {% endhint %}
 
 ## Choose UUID
 
-Up to 8 Hydrom can be connected in parallel via Bluetooth. The different devices are then assigned different colors.
+Up to 8 TempTrack can be connected in parallel via Bluetooth. The different devices are then assigned different colors.
 
 ## Choose the transmission power
 
-In the Hydrom, the power with which Bluetooth is transmitted can be set here. The range increases with higher transmission power. But beware, the battery life will also decrease with higher transmission power.
+In the TempTrack, the power with which Bluetooth is transmitted can be set here. The range increases with higher transmission power. But beware, the battery life will also decrease with higher transmission power.
 
 The powers with ascending transmission power:
 
@@ -80,13 +80,13 @@ Saving the data is important because it is the only way to connect to the servic
 
 ![Pressing the "save" button saves the settings.](.gitbook/assets/Folie5.png)
 
-You can check whether the saving was successful by looking at the settings file at http://hydrom001/settings.json/. to check if the save was successful. This file is the permanent memory of the Hydrom.
+You can check whether the saving was successful by looking at the settings file at http://TempTrack001/settings.json/. to check if the save was successful. This file is the permanent memory of the TempTrack.
 
-A second way to check the saving is to reload the page (all browsers offer this). If the properties are then reloaded, the hydrom has accepted them, otherwise the old settings are reloaded.
+A second way to check the saving is to reload the page (all browsers offer this). If the properties are then reloaded, the TempTrack has accepted them, otherwise the old settings are reloaded.
 
 ### activate DeepSleep
 
-Activating DeepSleep is mandatory for the hydrom to be able to send data. If DeepSleep is activated, the hydrom wakes up after the set time and sends the data to the set service. Afterwards, the hydrom goes back to sleep and waits for the new service.
+Activating DeepSleep is mandatory for the TempTrack to be able to send data. If DeepSleep is activated, the TempTrack wakes up after the set time and sends the data to the set service. Afterwards, the TempTrack goes back to sleep and waits for the new service.
 
 {% content-ref url="enable-deepsleep.md" %}
 [enable-deepsleep.md](enable-deepsleep.md)

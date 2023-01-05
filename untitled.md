@@ -1,11 +1,11 @@
 # Connect to existing WiFi
 
-Diesen Anleitung ist auch auf Deutsch verfügbar: [Link](https://anleitung.hydrom.io)
+
 
 {% hint style="danger" %}
-ATTENTION! If you have entered incorrect information (wrong SSID, passwords etc.), you will not be able to connect to the Hydrom and you have to reset the Device.
+ATTENTION! If you have entered incorrect information (wrong SSID, passwords etc.), you will not be able to connect to the TempTrack and you have to reset the Device.
 
-If the setting is incorrect, you can reset the Hydrom as described here:
+If the setting is incorrect, you can reset the TempTrack as described here:
 
 [#reset-by-the-button](factory-reset.md#reset-by-the-button "mention")
 {% endhint %}
@@ -25,7 +25,7 @@ To change the network settings, open the navigation bar on the left side and sel
 
 {% tabs %}
 {% tab title="Network Client" %}
-To set up the Hydrom as a client in an existing network, enter the name of the existing network in the field below the "SSID".
+To set up the TempTrack as a client in an existing network, enter the name of the existing network in the field below the "SSID".
 
 In the field below the "Password" enter the password of the existing network.
 
@@ -33,7 +33,7 @@ In the field below the "Password" enter the password of the existing network.
 {% endtab %}
 
 {% tab title="Accespoint" %}
-To set up the Hydrom as a Accesspoint, enter a name for the Accesspoint in the field below the "SSID".
+To set up the TempTrack as a Accesspoint, enter a name for the Accesspoint in the field below the "SSID".
 
 In the field below the "Password" enter the password of the Accesspoint.
 

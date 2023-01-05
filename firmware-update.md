@@ -1,6 +1,6 @@
 ---
 description: >-
-  The Hydrom has the possibility to install the firmware via the WebUI. Here you
+  The TempTrack has the possibility to install the firmware via the WebUI. Here you
   will find the instructions on how to do this.
 ---
 
@@ -8,13 +8,13 @@ description: >-
 
 ## Firmware Update
 
-Diesen Anleitung ist auch auf Deutsch verfügbar: [Link](https://anleitung.hydrom.io)
+
 
 {% hint style="success" %}
 **Precondition:**\
 To Upload the Firmware you must have access to the user interface. If this is not the case, see here how to do it:[access-to-the-user-interface.md](access-to-the-user-interface.md "mention")
 
-The hydrom must be fully charged
+The TempTrack must be fully charged
 {% endhint %}
 
 You can download the latest version of the firmware from [this site](version-overview.md#latest-firmware). To do this, go to the download section of the website.
@@ -50,9 +50,9 @@ Press the "Update"-Button to start the process. \
 This process may take a few minutes.
 
 {% hint style="info" %}
-You will know that the Hydrom has installed the new firmware by the Hydrom shutting down and then going into DeepSleep mode (easily recognized by the status LEDs going out).
+You will know that the TempTrack has installed the new firmware by the TempTrack shutting down and then going into DeepSleep mode (easily recognized by the status LEDs going out).
 
-How to wake up the Hydrom can be found here:
+How to wake up the TempTrack can be found here:
 
-[#wakeup-the-hydrom](enable-deepsleep.md#wakeup-the-hydrom "mention")
+[#wakeup-the-TempTrack](enable-deepsleep.md#wakeup-the-TempTrack "mention")
 {% endhint %}
